@@ -1,170 +1,587 @@
-WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
-WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
-WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
-WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
-[0] Starting graph reading.
-[3] Starting graph reading.
 [1] Starting graph reading.
+[0] Starting graph reading.
 [2] Starting graph reading.
-[3] Reading graph complete.
-[0] Reading graph complete.
-[0] Starting edgecut inspection.
-[3] Starting edgecut inspection.
+[3] Starting graph reading.
 [1] Reading graph complete.
+[0] Reading graph complete.
 [1] Starting edgecut inspection.
+[0] Starting edgecut inspection.
 [2] Reading graph complete.
+[3] Reading graph complete.
 [2] Starting edgecut inspection.
-[2] edgecut inspection ok.
-[3] edgecut inspection ok.
+[3] Starting edgecut inspection.
 [1] edgecut inspection ok.
 [0] edgecut inspection ok.
 Loading edge-data while creating edges
-[3] Graph construction complete.
-[2] Graph construction complete.
+[3] edgecut inspection ok.
+[2] edgecut inspection ok.
+[1] Graph construction complete.
 [0] Graph construction complete.
 Using non-blocking bare MPI
-[1] Graph construction complete.
+[3] Graph construction complete.
+[2] Graph construction complete.
 [0] Using GPU 0: NVIDIA H200
 [0] Using GPU 1: NVIDIA H200
 [0] Using GPU 2: NVIDIA H200
 [0] Using GPU 3: NVIDIA H200
+[0] Host memory for communication context:   7 MB
 [0] InitializeGraph::go called
 [1] Using GPU 0: NVIDIA H200
 [1] Using GPU 1: NVIDIA H200
 [1] Using GPU 2: NVIDIA H200
 [1] Using GPU 3: NVIDIA H200
-[2] Using GPU 0: NVIDIA H200
-[2] Using GPU 1: NVIDIA H200
-[2] Using GPU 2: NVIDIA H200
-[2] Using GPU 3: NVIDIA H200
 [3] Using GPU 0: NVIDIA H200
 [3] Using GPU 1: NVIDIA H200
 [3] Using GPU 2: NVIDIA H200
 [3] Using GPU 3: NVIDIA H200
-[3] InitializeGraph::go called
+[2] Using GPU 0: NVIDIA H200
+[2] Using GPU 1: NVIDIA H200
+[2] Using GPU 2: NVIDIA H200
+[2] Using GPU 3: NVIDIA H200
+[1] Host memory for communication context:   7 MB
 [1] InitializeGraph::go called
+[3] Host memory for communication context:   7 MB
+[2] Host memory for communication context:   7 MB
+[3] InitializeGraph::go called
 [2] InitializeGraph::go called
-[0] BFS::go run 0 called
-[1] BFS::go run 0 called
-[2] BFS::go run 0 called
-[3] BFS::go run 0 called
-source: 762822 time 0.0022195
-source: 762822 time 0.00270501
-source: 762822 time 0.00367604
-source: 762822 time 0.00360669
-[0] BFS::go run 1 called
-[2] BFS::go run 1 called
-[3] BFS::go run 1 called
-[1] BFS::go run 1 called
-source: 510067 time 0.00173398
-source: 510067 time 0.00450836
-source: 510067 time 0.00270501
-source: 510067 time 0.00395348
-[0] BFS::go run 2 called
-[2] BFS::go run 2 called
-[1] BFS::go run 2 called
-[3] BFS::go run 2 called
-source: 646399 time 0.00332925
-source: 646399 time 0.00471643
-source: 646399 time 0.00194206
-source: 646399 time 0.0059649
-[0] BFS::go run 3 called
-[3] BFS::go run 3 called
-[1] BFS::go run 3 called
-[2] BFS::go run 3 called
-source: 350444 time 0.00145655
-source: 350444 time 0.000346797
-source: 350444 time 0.00145655
-source: 350444 time 0.00270501
-[0] BFS::go run 4 called
-[1] BFS::go run 4 called
-[2] BFS::go run 4 called
-[3] BFS::go run 4 called
-source: 851149 time 0.00312117
-source: 851149 time 0.0040922
-source: 851149 time 0.00346797
-source: 851149 time 0.00638106
-[1] BFS::go run 5 called
-[0] BFS::go run 5 called
-[2] BFS::go run 5 called
-[3] BFS::go run 5 called
-source: 1038251 time 0.00270501
-source: 1038251 time 0.00319053
-source: 1038251 time 0.0040922
-source: 1038251 time 0.00541003
-[0] BFS::go run 6 called
-[1] BFS::go run 6 called
-[2] BFS::go run 6 called
-[3] BFS::go run 6 called
-source: 990971 time 0.0018727
-source: 990971 time 0.000277437
-source: 990971 time 0.00124847
-source: 990971 time 0.00402284
-[0] BFS::go run 7 called
-[2] BFS::go run 7 called
-[1] BFS::go run 7 called
-[3] BFS::go run 7 called
-source: 385350 time 0.0208078
-source: 385350 time 0.0221256
-source: 385350 time 0.0234435
-source: 385350 time 0.0221256
-[3] BFS::go run 8 called
-[0] BFS::go run 8 called
-[2] BFS::go run 8 called
-[1] BFS::go run 8 called
-source: 942786 time 0.0244838
-source: 942786 time 0.0239983
-source: 942786 time 0.0270501
-source: 942786 time 0.0272582
-[1] BFS::go run 9 called
-[0] BFS::go run 9 called
-[3] BFS::go run 9 called
-[2] BFS::go run 9 called
-source: 731128 time 0.00138719
-source: 731128 time 0.000901671
-source: 731128 time 0.00131783
-source: 731128 time 0.00270501
-[1] BFS::go run 10 called
-[2] BFS::go run 10 called
-[0] BFS::go run 10 called
-[3] BFS::go run 10 called
-source: 1042920 time 0.00228886
-source: 1042920 time 0.00319053
-source: 1042920 time 0.00457772
-source: 1042920 time 0.0040922
-[0] BFS::go run 11 called
-[1] BFS::go run 11 called
-[2] BFS::go run 11 called
-[3] BFS::go run 11 called
-source: 1033101 time 0.00485515
-source: 1033101 time 0.00457772
-source: 1033101 time 0.00298245
-source: 1033101 time 0.00575682
-bfs  min_time:                  0.000901671
-bfs  firstquartile_time:        0.00208078
-bfs  median_time:               0.00325989
-bfs  thirdquartile_time:        0.0042656
-bfs  max_time:                  0.0270501
-bfs  mean_time:                 0.0064562
-bfs  stddev_time:               0.00859885
+[1] SSSP::go run 0 called
+[0] SSSP::go run 0 called
+[3] SSSP::go run 0 called
+[2] SSSP::go run 0 called
+source: 71911 time 0.000573209
+source: 71911 time 0.000573209
+source: 71911 time 0.000573209
+source: 71911 time 0.000573209
+[1] SSSP::go run 1 called
+source: 71911 time 0.000604349
+[3] SSSP::go run 1 called
+source: 71911 time 0.00052882
+[0] SSSP::go run 1 called
+source: 71911 time 0.000625589
+[2] SSSP::go run 1 called
+source: 71911 time 0.000592399
+[0] SSSP::go run 2 called
+[3] SSSP::go run 2 called
+source: 0 time 0.000613125
+[2] SSSP::go run 2 called
+source: 0 time 0.000628921
+source: 0 time 0.000540085
+[1] SSSP::go run 2 called
+source: 0 time 0.000531085
+[0] SSSP::go run 3 called
+source: 0 time 0.000566826
+[2] SSSP::go run 3 called
+source: 0 time 0.000584206
+[1] SSSP::go run 3 called
+source: 0 time 0.000588236
+[3] SSSP::go run 3 called
+source: 0 time 0.000610022
+[0] SSSP::go run 4 called
+source: 0 time 0.000581703
+[2] SSSP::go run 4 called
+source: 0 time 0.000628818
+[1] SSSP::go run 4 called
+source: 0 time 0.000528476
+[3] SSSP::go run 4 called
+source: 0 time 0.00052029
+[0] SSSP::go run 5 called
+source: 0 time 0.000579443
+[2] SSSP::go run 5 called
+source: 0 time 0.000564691
+[3] SSSP::go run 5 called
+source: 0 time 0.000597971
+[1] SSSP::go run 5 called
+source: 0 time 0.000550755
+[0] SSSP::go run 6 called
+[1] SSSP::go run 6 called
+source: 0 time 0.000562835
+[2] SSSP::go run 6 called
+[3] SSSP::go run 6 called
+source: 0 time 0.000522475
+source: 0 time 0.000529263
+source: 0 time 0.000615211
+[0] SSSP::go run 7 called
+source: 0 time 0.000527827
+[2] SSSP::go run 7 called
+source: 0 time 0.000584715
+[1] SSSP::go run 7 called
+source: 0 time 0.000607882
+[3] SSSP::go run 7 called
+source: 0 time 0.000544692
+[0] SSSP::go run 8 called
+source: 0 time 0.000544894
+[2] SSSP::go run 8 called
+source: 0 time 0.000517663
+[3] SSSP::go run 8 called
+source: 0 time 0.000527794
+[1] SSSP::go run 8 called
+source: 0 time 0.000551271
+[0] SSSP::go run 9 called
+[2] SSSP::go run 9 called
+source: 0 time 0.000549945
+[1] SSSP::go run 9 called
+source: 0 time 0.000567397
+[3] SSSP::go run 9 called
+source: 0 time 0.000519476
+source: 0 time 0.000555919
+[0] SSSP::go run 10 called
+source: 0 time 0.000597559
+[1] SSSP::go run 10 called
+source: 0 time 0.000530696
+[3] SSSP::go run 10 called
+source: 0 time 0.000615797
+[2] SSSP::go run 10 called
+source: 0 time 0.000624215
+[1] SSSP::go run 11 called
+source: 0 time 0.000544051
+[0] SSSP::go run 11 called
+source: 0 time 0.00062239
+[3] SSSP::go run 11 called
+source: 0 time 0.000551503
+[2] SSSP::go run 11 called
+source: 0 time 0.000520677
+[1] SSSP::go run 12 called
+source: 0 time 0.000628011
+[0] SSSP::go run 12 called
+source: 0 time 0.000535735
+[3] SSSP::go run 12 called
+source: 0 time 0.000617258
+[2] SSSP::go run 12 called
+source: 0 time 0.000517196
+[0] SSSP::go run 13 called
+source: 0 time 0.000627715
+[1] SSSP::go run 13 called
+source: 0 time 0.000592452
+[2] SSSP::go run 13 called
+source: 0 time 0.000550185
+[3] SSSP::go run 13 called
+source: 0 time 0.000592009
+[0] SSSP::go run 14 called
+source: 0 time 0.000630475
+[1] SSSP::go run 14 called
+source: 0 time 0.000550239
+[3] SSSP::go run 14 called
+source: 0 time 0.00054216
+[2] SSSP::go run 14 called
+source: 0 time 0.000628627
+[0] SSSP::go run 15 called
+source: 0 time 0.000559748
+[1] SSSP::go run 15 called
+source: 0 time 0.000606225
+[3] SSSP::go run 15 called
+source: 0 time 0.000624792
+[2] SSSP::go run 15 called
+source: 0 time 0.00058586
+[0] SSSP::go run 16 called
+source: 0 time 0.000528541
+[1] SSSP::go run 16 called
+source: 0 time 0.00056182
+[3] SSSP::go run 16 called
+source: 0 time 0.000582545
+[2] SSSP::go run 16 called
+source: 0 time 0.000533102
+[0] SSSP::go run 17 called
+source: 0 time 0.000562973
+[1] SSSP::go run 17 called
+source: 0 time 0.000615387
+[3] SSSP::go run 17 called
+source: 0 time 0.000579231
+[2] SSSP::go run 17 called
+source: 0 time 0.000547353
+[0] SSSP::go run 18 called
+source: 0 time 0.000552115
+[1] SSSP::go run 18 called
+source: 0 time 0.000616035
+[2] SSSP::go run 18 called
+source: 0 time 0.00051764
+[3] SSSP::go run 18 called
+source: 0 time 0.000518298
+[0] SSSP::go run 19 called
+source: 0 time 0.00059034
+[3] SSSP::go run 19 called
+source: 0 time 0.000610657
+[1] SSSP::go run 19 called
+source: 0 time 0.00059717
+[2] SSSP::go run 19 called
+source: 0 time 0.000531862
+[1] SSSP::go run 20 called
+source: 0 time 0.000527852
+[0] SSSP::go run 20 called
+source: 0 time 0.000523298
+[3] SSSP::go run 20 called
+source: 0 time 0.00053146
+[2] SSSP::go run 20 called
+source: 0 time 0.000544863
+[0] SSSP::go run 21 called
+source: 0 time 0.000531753
+[3] SSSP::go run 21 called
+source: 0 time 0.000584985
+[1] SSSP::go run 21 called
+source: 0 time 0.000536564
+[2] SSSP::go run 21 called
+source: 0 time 0.000555276
+[0] SSSP::go run 22 called
+source: 0 time 0.000626755
+[1] SSSP::go run 22 called
+source: 0 time 0.000607201
+[2] SSSP::go run 22 called
+source: 0 time 0.000580716
+[3] SSSP::go run 22 called
+source: 0 time 0.000613339
+[0] SSSP::go run 23 called
+source: 0 time 0.000558275
+[1] SSSP::go run 23 called
+[2] SSSP::go run 23 called
+[3] SSSP::go run 23 called
+source: 0 time 0.000580529
+source: 0 time 0.000521506
+source: 0 time 0.000626317
+[0] SSSP::go run 24 called
+source: 0 time 0.000527341
+[1] SSSP::go run 24 called
+source: 0 time 0.000575903
+[2] SSSP::go run 24 called
+source: 0 time 0.000592222
+[3] SSSP::go run 24 called
+source: 0 time 0.000623814
+[1] SSSP::go run 25 called
+[0] SSSP::go run 25 called
+[2] SSSP::go run 25 called
+[3] SSSP::go run 25 called
+source: 0 time 0.000628473
+source: 0 time 0.000570295
+source: 0 time 0.000599413
+source: 0 time 0.000549922
+[0] SSSP::go run 26 called
+[1] SSSP::go run 26 called
+source: 0 time 0.000532007
+[2] SSSP::go run 26 called
+source: 0 time 0.00058986
+[3] SSSP::go run 26 called
+source: 0 time 0.000546025
+source: 0 time 0.000547708
+[0] SSSP::go run 27 called
+source: 0 time 0.000625672
+[1] SSSP::go run 27 called
+source: 0 time 0.000560636
+[3] SSSP::go run 27 called
+source: 0 time 0.000616121
+[2] SSSP::go run 27 called
+source: 0 time 0.000521074
+[0] SSSP::go run 28 called
+source: 0 time 0.000519219
+[2] SSSP::go run 28 called
+source: 0 time 0.000608892
+[3] SSSP::go run 28 called
+source: 0 time 0.000618611
+[1] SSSP::go run 28 called
+source: 0 time 0.000586221
+[0] SSSP::go run 29 called
+source: 0 time 0.000623149
+[1] SSSP::go run 29 called
+source: 0 time 0.000540867
+[3] SSSP::go run 29 called
+source: 0 time 0.000629899
+[2] SSSP::go run 29 called
+source: 0 time 0.000606588
+[0] SSSP::go run 30 called
+source: 0 time 0.00062865
+[1] SSSP::go run 30 called
+source: 0 time 0.000583266
+[2] SSSP::go run 30 called
+source: 0 time 0.000540466
+[3] SSSP::go run 30 called
+source: 0 time 0.0006054
+[1] SSSP::go run 31 called
+source: 0 time 0.000565338
+[0] SSSP::go run 31 called
+source: 0 time 0.000624313
+[3] SSSP::go run 31 called
+source: 0 time 0.000549521
+[2] SSSP::go run 31 called
+source: 0 time 0.000569337
+[0] SSSP::go run 32 called
+source: 0 time 0.000522719
+[1] SSSP::go run 32 called
+source: 0 time 0.000516892
+[2] SSSP::go run 32 called
+source: 0 time 0.000521115
+[3] SSSP::go run 32 called
+source: 0 time 0.00056544
+[0] SSSP::go run 33 called
+source: 0 time 0.000518964
+[1] SSSP::go run 33 called
+source: 0 time 0.000613067
+[3] SSSP::go run 33 called
+source: 0 time 0.000613123
+[2] SSSP::go run 33 called
+source: 0 time 0.000624647
+[0] SSSP::go run 34 called
+source: 0 time 0.000622543
+[1] SSSP::go run 34 called
+source: 0 time 0.000618978
+[2] SSSP::go run 34 called
+source: 0 time 0.000610496
+[3] SSSP::go run 34 called
+source: 0 time 0.000521139
+[0] SSSP::go run 35 called
+source: 0 time 0.000534453
+[1] SSSP::go run 35 called
+source: 0 time 0.000551546
+[3] SSSP::go run 35 called
+source: 0 time 0.000517699
+[2] SSSP::go run 35 called
+source: 0 time 0.000576182
+[1] SSSP::go run 36 called
+source: 0 time 0.000574396
+[0] SSSP::go run 36 called
+source: 0 time 0.000618961
+[3] SSSP::go run 36 called
+source: 0 time 0.000591767
+[2] SSSP::go run 36 called
+source: 0 time 0.000522364
+[0] SSSP::go run 37 called
+source: 0 time 0.000597632
+[1] SSSP::go run 37 called
+source: 0 time 0.000597439
+[2] SSSP::go run 37 called
+source: 0 time 0.000534333
+[3] SSSP::go run 37 called
+source: 0 time 0.000586616
+[1] SSSP::go run 38 called
+source: 0 time 0.000567962
+[0] SSSP::go run 38 called
+source: 0 time 0.000548669
+[3] SSSP::go run 38 called
+source: 0 time 0.000598025
+[2] SSSP::go run 38 called
+source: 0 time 0.000559681
+[1] SSSP::go run 39 called
+source: 0 time 0.0005883
+[0] SSSP::go run 39 called
+source: 0 time 0.000578037
+[2] SSSP::go run 39 called
+source: 0 time 0.000619237
+[3] SSSP::go run 39 called
+source: 0 time 0.000598246
+[0] SSSP::go run 40 called
+source: 0 time 0.000567042
+[1] SSSP::go run 40 called
+source: 0 time 0.000531272
+[3] SSSP::go run 40 called
+source: 0 time 0.000615027
+[2] SSSP::go run 40 called
+source: 0 time 0.000611488
+[0] SSSP::go run 41 called
+source: 0 time 0.000598367
+[1] SSSP::go run 41 called
+source: 0 time 0.000588087
+[2] SSSP::go run 41 called
+source: 0 time 0.000588827
+[3] SSSP::go run 41 called
+source: 0 time 0.000565887
+[0] SSSP::go run 42 called
+source: 0 time 0.000563282
+[1] SSSP::go run 42 called
+source: 0 time 0.000596713
+[2] SSSP::go run 42 called
+source: 0 time 0.000583148
+[3] SSSP::go run 42 called
+source: 0 time 0.000562889
+[0] SSSP::go run 43 called
+source: 0 time 0.000585525
+[1] SSSP::go run 43 called
+source: 0 time 0.000550508
+[2] SSSP::go run 43 called
+source: 0 time 0.000525604
+[3] SSSP::go run 43 called
+source: 0 time 0.00060159
+[0] SSSP::go run 44 called
+source: 0 time 0.000574821
+[1] SSSP::go run 44 called
+source: 0 time 0.000528935
+[3] SSSP::go run 44 called
+source: 0 time 0.000613644
+[2] SSSP::go run 44 called
+source: 0 time 0.000544933
+[0] SSSP::go run 45 called
+source: 0 time 0.000525476
+[1] SSSP::go run 45 called
+source: 0 time 0.000612584
+[2] SSSP::go run 45 called
+source: 0 time 0.000532989
+[3] SSSP::go run 45 called
+source: 0 time 0.000567187
+[0] SSSP::go run 46 called
+source: 0 time 0.000573806
+[1] SSSP::go run 46 called
+source: 0 time 0.000557942
+[3] SSSP::go run 46 called
+source: 0 time 0.000609701
+[2] SSSP::go run 46 called
+source: 0 time 0.000530397
+[1] SSSP::go run 47 called
+source: 0 time 0.000532483
+[0] SSSP::go run 47 called
+source: 0 time 0.00055133
+[2] SSSP::go run 47 called
+source: 0 time 0.000537221
+[3] SSSP::go run 47 called
+source: 0 time 0.000593029
+[0] SSSP::go run 48 called
+source: 0 time 0.000525998
+[1] SSSP::go run 48 called
+source: 0 time 0.00056392
+[3] SSSP::go run 48 called
+source: 0 time 0.000626316
+[2] SSSP::go run 48 called
+source: 0 time 0.000540097
+[0] SSSP::go run 49 called
+source: 0 time 0.00060312
+[1] SSSP::go run 49 called
+source: 0 time 0.000600659
+[2] SSSP::go run 49 called
+source: 0 time 0.000620778
+[3] SSSP::go run 49 called
+source: 0 time 0.000527317
+[0] SSSP::go run 50 called
+source: 0 time 0.000572881
+[2] SSSP::go run 50 called
+source: 0 time 0.000621459
+[3] SSSP::go run 50 called
+source: 0 time 0.000617312
+[1] SSSP::go run 50 called
+source: 0 time 0.000520952
+[0] SSSP::go run 51 called
+source: 0 time 0.000603673
+[1] SSSP::go run 51 called
+source: 0 time 0.000612688
+[3] SSSP::go run 51 called
+source: 0 time 0.000593056
+[2] SSSP::go run 51 called
+source: 0 time 0.000542883
+[0] SSSP::go run 52 called
+source: 0 time 0.000602925
+[1] SSSP::go run 52 called
+source: 0 time 0.00052445
+[2] SSSP::go run 52 called
+source: 0 time 0.000604109
+[3] SSSP::go run 52 called
+source: 0 time 0.00053083
+[0] SSSP::go run 53 called
+source: 0 time 0.000578587
+[3] SSSP::go run 53 called
+source: 0 time 0.000557688
+[2] SSSP::go run 53 called
+source: 0 time 0.000527096
+[1] SSSP::go run 53 called
+source: 0 time 0.000521735
+[1] SSSP::go run 54 called
+source: 0 time 0.000521124
+[3] SSSP::go run 54 called
+source: 0 time 0.000613625
+[0] SSSP::go run 54 called
+source: 0 time 0.00059365
+[2] SSSP::go run 54 called
+source: 0 time 0.000619489
+[1] SSSP::go run 55 called
+source: 0 time 0.000580369
+[0] SSSP::go run 55 called
+source: 0 time 0.000521273
+[3] SSSP::go run 55 called
+source: 0 time 0.000535846
+[2] SSSP::go run 55 called
+source: 0 time 0.0006287
+[0] SSSP::go run 56 called
+source: 0 time 0.000595135
+[1] SSSP::go run 56 called
+source: 0 time 0.000553227
+[3] SSSP::go run 56 called
+source: 0 time 0.000569735
+[2] SSSP::go run 56 called
+source: 0 time 0.0005284
+[1] SSSP::go run 57 called
+source: 0 time 0.000550481
+[0] SSSP::go run 57 called
+source: 0 time 0.000597625
+[3] SSSP::go run 57 called
+source: 0 time 0.000615924
+[2] SSSP::go run 57 called
+source: 0 time 0.000596295
+[1] SSSP::go run 58 called
+source: 0 time 0.000553542
+[0] SSSP::go run 58 called
+source: 0 time 0.000558374
+[2] SSSP::go run 58 called
+source: 0 time 0.000577179
+[3] SSSP::go run 58 called
+source: 0 time 0.000530405
+[0] SSSP::go run 59 called
+source: 0 time 0.000547266
+[1] SSSP::go run 59 called
+source: 0 time 0.000548913
+[3] SSSP::go run 59 called
+source: 0 time 0.000523038
+[2] SSSP::go run 59 called
+source: 0 time 0.000556691
+[0] SSSP::go run 60 called
+source: 0 time 0.000575615
+[1] SSSP::go run 60 called
+source: 0 time 0.000602019
+[2] SSSP::go run 60 called
+source: 0 time 0.000581252
+[3] SSSP::go run 60 called
+source: 0 time 0.00062913
+[0] SSSP::go run 61 called
+source: 0 time 0.000547504
+[1] SSSP::go run 61 called
+source: 0 time 0.000552538
+[3] SSSP::go run 61 called
+source: 0 time 0.000582897
+[2] SSSP::go run 61 called
+source: 0 time 0.000617959
+[0] SSSP::go run 62 called
+source: 0 time 0.000559804
+[1] SSSP::go run 62 called
+source: 0 time 0.000620771
+[2] SSSP::go run 62 called
+source: 0 time 0.000572349
+[3] SSSP::go run 62 called
+source: 0 time 0.00052128
+[0] SSSP::go run 63 called
+source: 0 time 0.000601453
+[1] SSSP::go run 63 called
+source: 0 time 0.000621338
+[2] SSSP::go run 63 called
+source: 0 time 0.000560249
+[3] SSSP::go run 63 called
+source: 0 time 0.000556338
+sssp  min_time:                  0.000518964
+sssp  firstquartile_time:        0.000518964
+sssp  median_time:               0.000518964
+sssp  thirdquartile_time:        0.000518964
+sssp  max_time:                  0.000518964
+sssp  mean_time:                 0.000574004
+sssp  stddev_time:               inf
 min_nedge:                      0
 firstquartile_nedge:            0
 median_nedge:                   0
 thirdquartile_nedge:            0
-max_nedge:                      24595911.375
-mean_nedge:                     2772305.3838
-stddev_nedge:                   7310826.5592
-bfs  min_TEPS:                  0
-bfs  firstquartile_TEPS:        0
-bfs  median_TEPS:               0
-bfs  thirdquartile_TEPS:        0
-bfs  max_TEPS:                  9.09271e+08
-bfs  harmonic_mean_TEPS:     !  0
+max_nedge:                      0
+mean_nedge:                     2094174.8658
+stddev_nedge:                   inf
+sssp  min_TEPS:                  0
+sssp  firstquartile_TEPS:        0
+sssp  median_TEPS:               4.341e+12
+sssp  thirdquartile_TEPS:        0
+sssp  max_TEPS:                  0
+sssp  harmonic_mean_TEPS:     !  0
 bfs  harmonic_stddev_TEPS:      -nan
-bfs  min_validate:              6e-05
-bfs  firstquartile_validate:    6.1e-05
-bfs  median_validate:           6.3e-05
-bfs  thirdquartile_validate:    7.95e-05
-bfs  max_validate:              0.00101
-bfs  mean_validate:             0.000179333
-bfs  stddev_validate:           0.000288536
+sssp  min_validate:              7.4e-05
+sssp  firstquartile_validate:    7.4e-05
+sssp  median_validate:           7.4e-05
+sssp  thirdquartile_validate:    7.4e-05
+sssp  max_validate:              7.4e-05
+sssp  mean_validate:             0.000148781
+sssp  stddev_validate:           inf
+STAT_TYPE, HOST_ID, REGION, CATEGORY, TOTAL_TYPE, TOTAL

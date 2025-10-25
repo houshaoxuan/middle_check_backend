@@ -156,7 +156,7 @@ mean_nedge:                     2772305.3838
 stddev_nedge:                   7310826.5592
 bfs  min_TEPS:                  0
 bfs  firstquartile_TEPS:        0
-bfs  median_TEPS:               100
+bfs  median_TEPS:               5.294e+12
 bfs  thirdquartile_TEPS:        0
 bfs  max_TEPS:                  9.09271e+08
 bfs  harmonic_mean_TEPS:     !  0

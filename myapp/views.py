@@ -6,8 +6,8 @@ import time
 import os
 
 # 定义模拟延迟时间
-INITIAL_DELAY_SECONDS = 8.0  # 第一次输出前的预处理时间 (例如 3秒)
-RUN_PHASE_DELAY_SECONDS = 0.1 # 核心运行阶段每行输出的间隔 (例如 50毫秒)
+INITIAL_DELAY_SECONDS = 4.0  # 第一次输出前的预处理时间 (例如 3秒)
+RUN_PHASE_DELAY_SECONDS = 0.01 # 核心运行阶段每行输出的间隔 (例如 50毫秒)
 
 def index(request):
     return render(request, 'myapp/index.html')
