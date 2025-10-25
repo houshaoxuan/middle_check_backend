@@ -1,0 +1,23 @@
+# 虚拟环境
+venv/
+env/
+
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 数据库
+*.sqlite3
+
+# VSCode 配置（可选）
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.tmp

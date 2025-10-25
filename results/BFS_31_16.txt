@@ -1,0 +1,170 @@
+WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
+WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
+WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
+WARNING: Numa Support Not configured (install libnuma-dev).  Assuming numa topology matches socket topology.
+[0] Starting graph reading.
+[3] Starting graph reading.
+[1] Starting graph reading.
+[2] Starting graph reading.
+[3] Reading graph complete.
+[0] Reading graph complete.
+[0] Starting edgecut inspection.
+[3] Starting edgecut inspection.
+[1] Reading graph complete.
+[1] Starting edgecut inspection.
+[2] Reading graph complete.
+[2] Starting edgecut inspection.
+[2] edgecut inspection ok.
+[3] edgecut inspection ok.
+[1] edgecut inspection ok.
+[0] edgecut inspection ok.
+Loading edge-data while creating edges
+[3] Graph construction complete.
+[2] Graph construction complete.
+[0] Graph construction complete.
+Using non-blocking bare MPI
+[1] Graph construction complete.
+[0] Using GPU 0: NVIDIA H200
+[0] Using GPU 1: NVIDIA H200
+[0] Using GPU 2: NVIDIA H200
+[0] Using GPU 3: NVIDIA H200
+[0] InitializeGraph::go called
+[1] Using GPU 0: NVIDIA H200
+[1] Using GPU 1: NVIDIA H200
+[1] Using GPU 2: NVIDIA H200
+[1] Using GPU 3: NVIDIA H200
+[2] Using GPU 0: NVIDIA H200
+[2] Using GPU 1: NVIDIA H200
+[2] Using GPU 2: NVIDIA H200
+[2] Using GPU 3: NVIDIA H200
+[3] Using GPU 0: NVIDIA H200
+[3] Using GPU 1: NVIDIA H200
+[3] Using GPU 2: NVIDIA H200
+[3] Using GPU 3: NVIDIA H200
+[3] InitializeGraph::go called
+[1] InitializeGraph::go called
+[2] InitializeGraph::go called
+[0] BFS::go run 0 called
+[1] BFS::go run 0 called
+[2] BFS::go run 0 called
+[3] BFS::go run 0 called
+source: 762822 time 0.0022195
+source: 762822 time 0.00270501
+source: 762822 time 0.00367604
+source: 762822 time 0.00360669
+[0] BFS::go run 1 called
+[2] BFS::go run 1 called
+[3] BFS::go run 1 called
+[1] BFS::go run 1 called
+source: 510067 time 0.00173398
+source: 510067 time 0.00450836
+source: 510067 time 0.00270501
+source: 510067 time 0.00395348
+[0] BFS::go run 2 called
+[2] BFS::go run 2 called
+[1] BFS::go run 2 called
+[3] BFS::go run 2 called
+source: 646399 time 0.00332925
+source: 646399 time 0.00471643
+source: 646399 time 0.00194206
+source: 646399 time 0.0059649
+[0] BFS::go run 3 called
+[3] BFS::go run 3 called
+[1] BFS::go run 3 called
+[2] BFS::go run 3 called
+source: 350444 time 0.00145655
+source: 350444 time 0.000346797
+source: 350444 time 0.00145655
+source: 350444 time 0.00270501
+[0] BFS::go run 4 called
+[1] BFS::go run 4 called
+[2] BFS::go run 4 called
+[3] BFS::go run 4 called
+source: 851149 time 0.00312117
+source: 851149 time 0.0040922
+source: 851149 time 0.00346797
+source: 851149 time 0.00638106
+[1] BFS::go run 5 called
+[0] BFS::go run 5 called
+[2] BFS::go run 5 called
+[3] BFS::go run 5 called
+source: 1038251 time 0.00270501
+source: 1038251 time 0.00319053
+source: 1038251 time 0.0040922
+source: 1038251 time 0.00541003
+[0] BFS::go run 6 called
+[1] BFS::go run 6 called
+[2] BFS::go run 6 called
+[3] BFS::go run 6 called
+source: 990971 time 0.0018727
+source: 990971 time 0.000277437
+source: 990971 time 0.00124847
+source: 990971 time 0.00402284
+[0] BFS::go run 7 called
+[2] BFS::go run 7 called
+[1] BFS::go run 7 called
+[3] BFS::go run 7 called
+source: 385350 time 0.0208078
+source: 385350 time 0.0221256
+source: 385350 time 0.0234435
+source: 385350 time 0.0221256
+[3] BFS::go run 8 called
+[0] BFS::go run 8 called
+[2] BFS::go run 8 called
+[1] BFS::go run 8 called
+source: 942786 time 0.0244838
+source: 942786 time 0.0239983
+source: 942786 time 0.0270501
+source: 942786 time 0.0272582
+[1] BFS::go run 9 called
+[0] BFS::go run 9 called
+[3] BFS::go run 9 called
+[2] BFS::go run 9 called
+source: 731128 time 0.00138719
+source: 731128 time 0.000901671
+source: 731128 time 0.00131783
+source: 731128 time 0.00270501
+[1] BFS::go run 10 called
+[2] BFS::go run 10 called
+[0] BFS::go run 10 called
+[3] BFS::go run 10 called
+source: 1042920 time 0.00228886
+source: 1042920 time 0.00319053
+source: 1042920 time 0.00457772
+source: 1042920 time 0.0040922
+[0] BFS::go run 11 called
+[1] BFS::go run 11 called
+[2] BFS::go run 11 called
+[3] BFS::go run 11 called
+source: 1033101 time 0.00485515
+source: 1033101 time 0.00457772
+source: 1033101 time 0.00298245
+source: 1033101 time 0.00575682
+bfs  min_time:                  0.000901671
+bfs  firstquartile_time:        0.00208078
+bfs  median_time:               0.00325989
+bfs  thirdquartile_time:        0.0042656
+bfs  max_time:                  0.0270501
+bfs  mean_time:                 0.0064562
+bfs  stddev_time:               0.00859885
+min_nedge:                      0
+firstquartile_nedge:            0
+median_nedge:                   0
+thirdquartile_nedge:            0
+max_nedge:                      24595911.375
+mean_nedge:                     2772305.3838
+stddev_nedge:                   7310826.5592
+bfs  min_TEPS:                  0
+bfs  firstquartile_TEPS:        0
+bfs  median_TEPS:               100
+bfs  thirdquartile_TEPS:        0
+bfs  max_TEPS:                  9.09271e+08
+bfs  harmonic_mean_TEPS:     !  0
+bfs  harmonic_stddev_TEPS:      -nan
+bfs  min_validate:              6e-05
+bfs  firstquartile_validate:    6.1e-05
+bfs  median_validate:           6.3e-05
+bfs  thirdquartile_validate:    7.95e-05
+bfs  max_validate:              0.00101
+bfs  mean_validate:             0.000179333
+bfs  stddev_validate:           0.000288536
